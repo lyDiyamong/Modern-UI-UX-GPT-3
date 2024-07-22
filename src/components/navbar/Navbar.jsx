@@ -40,6 +40,7 @@ function Navbar() {
         <p>Sign in</p>
         <button type="button">Sign up</button>
       </div>
+      {/* toggle the menu bar */}
       <div className="gpt3__navbar-menu">
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} /> // true show this
